@@ -1,0 +1,534 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    position: static;
+    height: 12vh;
+    width: auto;
+    background-color: #044E83;
+    display: flex;
+}
+img {
+    position: relative;
+    height: 15vh;
+    margin-top: 25px;
+}
+.heading {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    color: bisque;
+    font-size: 1.2rem;
+}
+
+.under {
+    font-size: 1.5rem;
+    width: 28rem;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+.under a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.container {
+    height: 38rem;
+    display: flex;
+    background-image: url(governor\ house\ pic.jpg);
+    background-size: cover;
+}
+h1{
+    margin-top: 10vh;
+    margin-left: 5vh;
+    font-weight: bolder;
+    font-size: 3.9rem;
+    color: #044E83;
+    display: flex;
+}
+span {
+    font-size: 2.5rem;
+    color: #044E83;
+    margin-top: 19vh;
+    margin-left: -65vh;
+    display: flex;
+}
+.second {
+    height: 25vh;
+    width: 60vh;
+    margin-top: 31vh;
+    color: darkcyan;
+    margin-left: -55vh;
+    display: flex;
+    font-size: 2.5rem;
+}
+h5 {
+    margin-top: 60vh;
+    margin-left: -60vh;
+    font-size: 2rem;
+    color: #044E83;
+}
+h6 {
+    margin-top: 70vh;
+    margin-left: -55vh;
+    font-size: 1.7rem;
+    display: flex;
+    color: #044E83;
+}
+button{
+    height: 7vh;
+    width: 25vh;
+    background-color: #044E83;
+    margin-top: 80vh;
+    margin-left: -70vh;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: white;
+    color: #044E83;
+}
+.third {
+    height: 9vh;
+    width: 28vh;
+    margin-top: 80vh;
+    margin-left: 10vh;
+    color: white;
+}
+h2 {
+    color: #044E83;
+    margin-left: 6.7vh;
+}
+p{
+    color: #044E83;
+    margin-left: 2vh;
+    margin-top: 1.3vh;
+    font-size: 1.1rem;
+}
+
+.pic {
+    position: relative;
+    display: flex;
+    height: 32rem;
+    width: 25rem;
+    margin-left: 70vh;
+    margin-top: 12vh;
+    background-image: url(governor.png);
+    background-size: cover;
+}
+
+.container-pics {
+    position: relative;
+    height: 85rem;
+    width: auto;
+}
+
+#first-heading {
+    display: flex;
+    height: 8rem;
+    width: 80rem;
+    color: #044E83;
+    padding-top: 5rem;
+    margin-left: 2rem;
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para {
+   height: 14rem;
+   width: 80rem;
+   margin-top: .2rem;
+   margin-left: 2rem;
+   font-size: 1.7rem;
+   text-align: center;
+   color: black;
+   padding: 3px;
+   display: flex;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52vh;
+    width: 81rem;
+    margin-left: 1.7rem;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+.box1 {
+    height: 48vh;
+    width: 24.5rem;
+    background-image: url(first.jpg);
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.box2{
+    height: 48vh;
+    width: 24.5rem;
+    background-image: url(second.pic.jpg);
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.box3 {
+    height: 48vh;
+    width: 24.5rem;
+    background-image: url(third.jpg);
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.bigs {
+    height: 33rem;
+    width: 81rem;
+    margin-left: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.big-first {
+    height: 70rex;
+    width: 86rex;
+    border-radius: 10px;
+    background-image: url(big\ pic\ 1.jpg);
+    background-size: cover;
+}
+
+.big-second {
+    height: 70rex;
+    width: 86rex;
+    border-radius: 10px;
+    background-image: url(big\ pic\ 2.jpg);
+    background-size: cover;
+}
+
+.underline {
+    height: .1rem;
+    width: 94%;
+    background-color: gray;
+    margin-top: .5rem;
+    margin-left: 2.7rem;
+}
+
+.second-container {
+    height: 71rem;
+    width: auto;
+    margin-top: .5rem;
+}
+
+#courses {
+    color: #044E83;
+    font-size: 2.5rem;
+    margin-left: 2.2rem;
+    padding-top: 1.5rem;
+}
+
+.cont-containers {
+    height: 21rem;
+    width: 60rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.count1 {
+    height: 16rem;
+    width: 17rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.cont1 {
+    height: 12rem;
+    width: 17;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(cont1.jpg);
+    background-size: cover;
+}
+
+.count2 {
+    height: 16rem;
+    width: 17rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.cont2 {
+    height: 12rem;
+    width: 17;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(cont2.jpg);
+    background-size: cover;
+}
+
+.count3 {
+    height: 16rem;
+    width: 17rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.cont3 {
+    height: 12rem;
+    width: 17;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(cont3.jpg);
+    background-size: cover;
+}
+
+#first-letter {
+    color: gray;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-left: 1.6rem;
+}
+
+#second-letter {
+    color: gray;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-left: 3.5rem;
+}
+
+#third-letter {
+    color: gray;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-left: 3.5rem;
+}
+
+.intelligence {
+    height: 19rem;
+    width: 80rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.box5 {
+    height: 16rem;
+    width: 17rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.under-pic1 {
+    height: 12rem;
+    width: 17rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(intelligence\ 1.jpg);
+    background-size: cover;
+}
+
+.box6 {
+    height: 16rem;
+    width: 17rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.under-pic2 {
+    height: 12rem;
+    width: 17rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(metaverse.jpg);
+    background-size: cover;
+}
+
+.box7 {
+    height: 16rem;
+    width: 17rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.under-pic3 {
+    height: 12rem;
+    width: 17rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(computing.jpg);
+    background-size: cover;
+}
+
+.box8 {
+    height: 16rem;
+    width: 17rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.under-pic4 {
+    height: 12rem;
+    width: 17rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(lot.jpg);
+    background-size: cover;
+}
+
+.paragraph {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    color: gray;
+}
+.paragraph3 {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color: gray;
+}
+.paragraph4 {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-left: 1.1rem;
+    color: gray;
+}
+
+.upword {
+    height: 19rem;
+    width: 42rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+.under-upword {
+    height: 16rem;
+    width: 18rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.last-pic {
+    height: 12rem;
+    width: 18rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(genomics.jpg);
+    background-size: cover;
+}
+.under-upwords {
+    height: 16rem;
+    width: 18rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.last-pics {
+    height: 12rem;
+    width: 18rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(network.jpg);
+    background-size: cover;
+}
+.last-para {
+    font-size: 1.3rem;
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+    color: gray;
+}
+.last-para1 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: gray;
+}
+footer {
+    height: 28rem;
+    width: auto;
+    background-color: rgb(241, 239, 239);
+}
+.footer {
+    height: 28rem;
+    width: 70rem;
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 2rem;
+}
+.first-foot {
+    height: 17rem;
+    width: 17rem;
+    margin-top: 3rem;
+}
+.core {
+    font-size: 2rem;
+    color: black;
+}
+#foot {
+    font-size: 1.3rem;
+    color: gray;
+    margin-top: 1.5rem;
+}
+
+.second-foot {
+    height: 21rem;
+    width: 23rem;
+    margin-top: 3rem;
+}
+#advance {
+    font-size: 2rem;
+    color: black;
+}
+#foot2 {
+    font-size: 1.2rem;
+    color: gray;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+.third-foot {
+    height: 19rem;
+    width: 20rem;
+    margin-top: 3rem;
+}
+#Social {
+    font-size: 2rem;
+    color: black;
+}
+
+i {
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.facebook {
+    color: rgb(11, 100, 168);
+}
+.youtube {
+    color: red;
+}
+.twitter {
+    color: skyblue;
+}
+.insta {
+    color: lightcoral;
+}
+.tiktok {
+    color: black;
+}
+.email {
+    color: #044E83;
+}
+
+#educ {
+    margin-left: 4rem;
+    margin-top: -1.8rem;
+    color: #044E83;
+}
